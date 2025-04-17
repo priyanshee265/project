@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Home Design</title>
+  <link rel="stylesheet" href="nav.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="top-logo">
+    <img src="lg.jpg"  class="circle-logo">
+  </div>
+  <nav class="navbar">
+    <div class="logo"></div>
+    <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="pro.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="blog.html">blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <section class="py-12 text-center bg-white shadow">
+    <h1 class="text-4xl font-bold">Contact Us</h1>
+    <p class="text-gray-500 mt-2">We'd love to hear from you — let's create something beautiful together.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 px-6 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+    
+    <!-- Contact Form -->
+    <form class="bg-white p-8 rounded-xl shadow-md space-y-6">
+      <div>
+        <label class="block mb-1 font-medium">Name</label>
+        <input type="text" placeholder="Your full name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Email</label>
+        <input type="email" placeholder="you@example.com" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Message</label>
+        <textarea rows="4" placeholder="Tell us about your project..." class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400" required></textarea>
+      </div>
+      <button type="submit" class="bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition">Send Message</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="bg-white p-8 rounded-xl shadow-md space-y-4">
+      <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
+      <p><strong>Email:</strong>Modernnest@gmail.com</p>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+      <p><strong>Location:</strong> 123 Design Lane,navrangpura,ahmedabad</p>
+      <p>Follow us on social media for the latest projects and inspiration!</p>
+      <div class="flex space-x-4 mt-4">
+        <a href="#" class="text-gray-500 hover:text-gray-900">Instagram</a>
+        <a href="#" class="text-gray-500 hover:text-gray-900">Facebook</a>
+        <a href="#" class="text-gray-500 hover:text-gray-900">Pinterest</a>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

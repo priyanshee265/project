@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo Screen</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .logo-screen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ffffff;
+    }
+
+    .logo-screen img {
+      max-width:500px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-screen">
+    <img src="lg.jpg" alt="Logo">
+  </div>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "pr.html"; // Change to your form page URL
+    }, 1500);
+  </script>
+
+</body>
+</html>

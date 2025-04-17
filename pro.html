@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interior Design Showcase</title>
+  <link rel="stylesheet" href="pro.css" />
+</head>
+<body>
+  <header>
+    <h1>Interior Design Showcase</h1>
+    <p><em>Furniture & Home Styling Gallery</em></p>
+  </header>
+  <div class="top-logo">
+    <img src="lg.jpg"  class="circle-logo">
+  </div>
+  <nav class="navbar">
+    <div class="logo"></div>
+    <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="pro.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="blog.html">blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+
+  <!-- Grid-based Gallery -->
+  <section class="gallery">
+    <h2>OVERVIEW OF THIS WEBSITE</h2>
+    <div class="grid">
+      <div class="item"><img src="p1.jpg" alt="Room 1" /></div>
+      <div class="item"><img src="p8.jpg" alt="Room 2" /></div>
+      <div class="item"><img src="p2.jpg" alt="Room 3" /></div>
+    </div>
+  </section>
+
+  <!-- Before & After Slider -->
+  <section class="before-after">
+    <h2>Design Transformations</h2>
+    <div class="slider-container">
+      <div class="slider">
+        <img src="p5.jpg" id="beforeImg" />
+        <div class="slider-handle" id="sliderHandle"></div>
+        <img src="p6.jpg" id="afterImg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog">
+    <h2>Styling Tips</h2>
+    <article>
+      <h3>Maximize Natural Light</h3>
+      <p>Use sheer curtains and bright palettes to make rooms feel open and airy.</p>
+    </article>
+    <article>
+      <h3>Layer Your Textures</h3>
+      <p>Mix different fabrics and materials to create depth and interest.</p>
+    </article>
+  </section>
+
+  <!-- Testimonial Slider -->
+  <section class="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-container" id="testimonialContainer">
+      <p class="testimonial">"Loved the makeover – it brought life to my living room!"</p>
+      <p class="testimonial">"Stylish, clean, and super functional!"</p>
+      <p class="testimonial">"A total transformation. Highly recommended!"</p>
+    </div>
+  </section>
+
+  <script src="pro.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog - Home Design</title>
+  <link rel="stylesheet" href="nav.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="top-logo">
+    <img src="lg.jpg"  class="circle-logo">
+  </div>
+  <nav class="navbar">
+    <div class="logo"></div>
+    <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="pro.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="blog.html">blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="py-12 text-center bg-white shadow">
+    <h1 class="text-4xl font-bold">Our Blog</h1>
+    <p class="text-gray-500 mt-2">Inspiration, tips, and trends in interior design</p>
+  </header>
+  
+  
+
+
+  <!-- Blog Grid -->
+  <main class="py-12 px-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Blog Post 1 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="room.jpg" alt="Living Room Ideas" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <span class="text-sm text-gray-400">March 25, 2025</span>
+          <h2 class="text-xl font-semibold mt-2 mb-2">Top 5 Living Room Styling Ideas</h2>
+          <p class="text-gray-600">Discover how to bring warmth and personality to your living space with these easy styling tips.</p>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="color.jpg" alt="Color Trends" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <span class="text-sm text-gray-400">March 15, 2025</span>
+          <h2 class="text-xl font-semibold mt-2 mb-2">Color Trends for Modern Interiors</h2>
+          <p class="text-gray-600">See which colors are trending this year and how to apply them to your home for a fresh look.</p>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+        <img src="small.jpg" alt="Small Space Design" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <span class="text-sm text-gray-400">February 28, 2025</span>
+          <h2 class="text-xl font-semibold mt-2 mb-2">Design Tips for Small Spaces</h2>
+          <p class="text-gray-600">Smart ways to make small rooms feel larger and more functional without sacrificing style.</p>
+        </div>
+      </div>
+
+      <!-- Add more posts as needed -->
+
+    </div>
+  </main>
+
+</body>
+</html>
